@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4415f92-f784-41dd-95c4-23e999116cb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="c4415f92-f784-41dd-95c4-23e999116cb0" name="Default Changelist" comment="comm">
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/kokoro/single_original.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/odesign.sql" beforeDir="false" afterPath="$PROJECT_DIR$/odesign.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/kokoro/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/kokoro/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/kokoro/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/kokoro/single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/kokoro/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/kokoro/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +34,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/ShopperWooThemeFREE/woocommerce" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/kokoro" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -39,6 +42,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\wordpress\wp-content\themes\kokoro" />
       <recent name="C:\wamp64\www\wordpress\wp-content\themes\ShopperWooThemeFREE\woocommerce" />
     </key>
   </component>
@@ -59,7 +63,10 @@
       <workItem from="1610641648167" duration="11000" />
       <workItem from="1611243338872" duration="445000" />
       <workItem from="1612635338452" duration="591000" />
-      <workItem from="1644863100519" duration="2090000" />
+      <workItem from="1644863100519" duration="6561000" />
+      <workItem from="1644944634760" duration="11000" />
+      <workItem from="1646679584874" duration="853000" />
+      <workItem from="1647285924358" duration="4053000" />
     </task>
     <task id="LOCAL-00001" summary="comm">
       <created>1644865207544</created>
@@ -68,7 +75,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644865207544</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="comm">
+      <created>1644865485821</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644865485821</updated>
+    </task>
+    <task id="LOCAL-00003" summary="comm">
+      <created>1644867211341</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644867211341</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

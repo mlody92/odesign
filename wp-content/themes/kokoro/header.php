@@ -25,31 +25,32 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'kokoro' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
-		<nav id="site-navigation" class="main-navigation2 top-nav-kokoro" role="navigation">
-			<div class="top-nav container">
-				
-				<?php wp_nav_menu( array( 'theme_location' => 'topmenu', 'menu_id' => 'top-menu', 'depth' => 1 ) ); ?>
-
-				<div id="top-social">
-					
-					<?php if(get_theme_mod('kokoro_facebook')) : ?><a href="<?php echo esc_url(get_theme_mod('kokoro_facebook')); ?>" target="_blank"><i class="fa fa-facebook"></i></a><?php endif; ?>
-					<?php if(get_theme_mod('kokoro_twitter')) : ?><a href="<?php echo esc_url(get_theme_mod('kokoro_twitter')); ?>" target="_blank"><i class="fa fa-twitter"></i></a><?php endif; ?>
-					<?php if(get_theme_mod('kokoro_instagram')) : ?><a href="<?php echo esc_url(get_theme_mod('kokoro_instagram')); ?>" target="_blank"><i class="fa fa-instagram"></i></a><?php endif; ?>
-					<?php if(get_theme_mod('kokoro_pinterest')) : ?><a href="<?php echo esc_url(get_theme_mod('kokoro_pinterest')); ?>" target="_blank"><i class="fa fa-pinterest"></i></a><?php endif; ?>
-					<?php if(get_theme_mod('kokoro_bloglovin')) : ?><a href="<?php echo esc_url(get_theme_mod('kokoro_bloglovin')); ?>" target="_blank"><i class="fa fa-heart"></i></a><?php endif; ?>
-					<?php if(get_theme_mod('kokoro_google')) : ?><a href="<?php echo esc_url(get_theme_mod('kokoro_google')); ?>" target="_blank"><i class="fa fa-google-plus"></i></a><?php endif; ?>
-					<?php if(get_theme_mod('kokoro_tumblr')) : ?><a href="<?php echo esc_url(get_theme_mod('kokoro_tumblr')); ?>.tumblr.com/" target="_blank"><i class="fa fa-tumblr"></i></a><?php endif; ?>
-					<?php if(get_theme_mod('kokoro_youtube')) : ?><a href="<?php echo esc_url(get_theme_mod('kokoro_youtube')); ?>" target="_blank"><i class="fa fa-youtube-play"></i></a><?php endif; ?>
-
-					<?php if(get_theme_mod('kokoro_dribbble')) : ?><a href="<?php echo esc_url(get_theme_mod('kokoro_dribbble')); ?>" target="_blank"><i class="fa fa-dribbble"></i></a><?php endif; ?>
-					<?php if(get_theme_mod('kokoro_soundcloud')) : ?><a href="<?php echo esc_url(get_theme_mod('kokoro_soundcloud')); ?>" target="_blank"><i class="fa fa-soundcloud"></i></a><?php endif; ?>
-					<?php if(get_theme_mod('kokoro_vimeo')) : ?><a href="<?php echo esc_url(get_theme_mod('kokoro_vimeo')); ?>" target="_blank"><i class="fa fa-vimeo-square"></i></a><?php endif; ?>
-					<?php if(get_theme_mod('kokoro_linkedin')) : ?><a href="<?php echo esc_url(get_theme_mod('kokoro_linkedin')); ?>" target="_blank"><i class="fa fa-linkedin"></i></a><?php endif; ?>
-					<?php if(get_theme_mod('kokoro_rss')) : ?><a href="<?php echo esc_url(get_theme_mod('kokoro_rss')); ?>" target="_blank"><i class="fa fa-rss"></i></a><?php endif; ?>
-					
-				</div>
-			</div>
-		</nav><!-- #site-navigation -->
+<!--		<nav id="site-navigation" class="main-navigation2 top-nav-kokoro" role="navigation">-->
+<!--			<div class="top-nav container">-->
+<!--				-->
+<!--				--><?php //wp_nav_menu( array( 'theme_location' => 'topmenu', 'menu_id' => 'top-menu', 'depth' => 1 ) ); ?>
+<!---->
+<!--				<div id="top-social">-->
+<!--					-->
+<!--					--><?php //if(get_theme_mod('kokoro_facebook')) : ?><!--<a href="--><?php //echo esc_url(get_theme_mod('kokoro_facebook')); ?><!--" target="_blank"><i class="fa fa-facebook"></i></a>--><?php //endif; ?>
+<!--					--><?php //if(get_theme_mod('kokoro_twitter')) : ?><!--<a href="--><?php //echo esc_url(get_theme_mod('kokoro_twitter')); ?><!--" target="_blank"><i class="fa fa-twitter"></i></a>--><?php //endif; ?>
+<!--					--><?php //if(get_theme_mod('kokoro_instagram')) : ?><!--<a href="--><?php //echo esc_url(get_theme_mod('kokoro_instagram')); ?><!--" target="_blank"><i class="fa fa-instagram"></i></a>--><?php //endif; ?>
+<!--					--><?php //if(get_theme_mod('kokoro_pinterest')) : ?><!--<a href="--><?php //echo esc_url(get_theme_mod('kokoro_pinterest')); ?><!--" target="_blank"><i class="fa fa-pinterest"></i></a>--><?php //endif; ?>
+<!--					--><?php //if(get_theme_mod('kokoro_bloglovin')) : ?><!--<a href="--><?php //echo esc_url(get_theme_mod('kokoro_bloglovin')); ?><!--" target="_blank"><i class="fa fa-heart"></i></a>--><?php //endif; ?>
+<!--					--><?php //if(get_theme_mod('kokoro_google')) : ?><!--<a href="--><?php //echo esc_url(get_theme_mod('kokoro_google')); ?><!--" target="_blank"><i class="fa fa-google-plus"></i></a>--><?php //endif; ?>
+<!--					--><?php //if(get_theme_mod('kokoro_tumblr')) : ?><!--<a href="--><?php //echo esc_url(get_theme_mod('kokoro_tumblr')); ?><!--.tumblr.com/" target="_blank"><i class="fa fa-tumblr"></i></a>--><?php //endif; ?>
+<!--					--><?php //if(get_theme_mod('kokoro_youtube')) : ?><!--<a href="--><?php //echo esc_url(get_theme_mod('kokoro_youtube')); ?><!--" target="_blank"><i class="fa fa-youtube-play"></i></a>--><?php //endif; ?>
+<!---->
+<!--					--><?php //if(get_theme_mod('kokoro_dribbble')) : ?><!--<a href="--><?php //echo esc_url(get_theme_mod('kokoro_dribbble')); ?><!--" target="_blank"><i class="fa fa-dribbble"></i></a>--><?php //endif; ?>
+<!--					--><?php //if(get_theme_mod('kokoro_soundcloud')) : ?><!--<a href="--><?php //echo esc_url(get_theme_mod('kokoro_soundcloud')); ?><!--" target="_blank"><i class="fa fa-soundcloud"></i></a>--><?php //endif; ?>
+<!--					--><?php //if(get_theme_mod('kokoro_vimeo')) : ?><!--<a href="--><?php //echo esc_url(get_theme_mod('kokoro_vimeo')); ?><!--" target="_blank"><i class="fa fa-vimeo-square"></i></a>--><?php //endif; ?>
+<!--					--><?php //if(get_theme_mod('kokoro_linkedin')) : ?><!--<a href="--><?php //echo esc_url(get_theme_mod('kokoro_linkedin')); ?><!--" target="_blank"><i class="fa fa-linkedin"></i></a>--><?php //endif; ?>
+<!--					--><?php //if(get_theme_mod('kokoro_rss')) : ?><!--<a href="--><?php //echo esc_url(get_theme_mod('kokoro_rss')); ?><!--" target="_blank"><i class="fa fa-rss"></i></a>--><?php //endif; ?>
+<!--					-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</nav>-->
+        <!-- #site-navigation -->
 
 		<div class="site-branding container">
 
